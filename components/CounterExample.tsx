@@ -1,10 +1,10 @@
 
 import React from "react";
 import Typography from "@mui/material/Typography";
-import { useAppSelector, useAppDispatch } from "../store";
+import { useAppSelector, useAppDispatch } from "../services/store";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
-import { decrement, increment, selectCount } from "../store/counterSlice";
+import { decrement, increment, selectCount } from "../services/store/counterSlice";
 
 const CounterExample = () => {
   const count = useAppSelector(selectCount);

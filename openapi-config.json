@@ -1,0 +1,8 @@
+{
+  "schemaFile": "./api-spec.yml",
+  "apiFile": "./services/api/baseApi.ts",
+  "outputFile": "./services/api/generated/api.ts",
+  "exportName": "jsonPlaceholderApi",
+  "hooks": true,
+  "tag": true
+}

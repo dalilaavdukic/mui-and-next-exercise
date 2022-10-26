@@ -14,7 +14,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { CustomThemeContext } from '../providers/CustomThemeContext';
-import { store } from '../store';
+import { store } from '../services/store';
 
 
 // Client-side cache, shared for the whole session of the user in the browser.
