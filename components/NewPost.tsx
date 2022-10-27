@@ -53,7 +53,14 @@ const NewPost = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <Stack mt={2} spacing={2}>
             <TextInput name="title" label="Title" fullWidth size="small" />
-            <TextInput name="body" label="Body" fullWidth size="small" />
+            <TextInput
+              name="body"
+              label="Body"
+              fullWidth
+              size="small"
+              multiline
+              rows={4}
+            />
             {!isCreateInProgress && (
               <Button variant="contained" type="submit">
                 Create
